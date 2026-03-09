@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-phongmt">
+        <li class="text">PhongMT</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-nd_congnd">
+        <li class="text">ND_CongND</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-nd_midr2">
+        <li class="text">ND_MIDR2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-nd_downr1">
+        <li class="text">ND_DOWNR1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-nd_midl2">
+        <li class="text">ND_MIDL2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-nd_downl2">
+        <li class="text">ND_DOWNL2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-nd_downl1">
+        <li class="text">ND_DOWNL1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-nd_downm">
+        <li class="text">ND_DOWNM</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-nd_midm">
+        <li class="text">ND_MIDM</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-nd_topr">
+        <li class="text">ND_TOPR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-nd_topm">
+        <li class="text">ND_TOPM</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-nd_topl">
+        <li class="text">ND_TOPL</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-nd_midl">
+        <li class="text">ND_MIDL</li>
+      </a>
+    
+            <a href="javascript:void(0)" class="scene" data-id="0-kydai">
+        <li class="text">KyDai</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-phonggiaovien1">
+        <li class="text">PhongGiaoVien1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-phonggiaovien2">
+        <li class="text">PhongGiaoVien2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-phonggiaovien3">
+        <li class="text">PhongGiaoVien3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-phonghop1">
+        <li class="text">PhongHop1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-phonghop2">
+        <li class="text">PhongHop2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-phongtiepcongdan">
+        <li class="text">PhongTiepCongDan</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-pht2">
+        <li class="text">PHT2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-tv_chilchilr">
+        <li class="text">TV_chilchilR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-tv_frontl">
+        <li class="text">TV_FrontL</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-tv_frontr">
+        <li class="text">TV_FrontR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-tv0_stairr">
+        <li class="text">TV0_StairR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-tv0_stair">
+        <li class="text">TV0_Stair</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-tv0_stair1">
+        <li class="text">TV0_Stair1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-tv1_caunoil">
+        <li class="text">TV1_CauNoiL</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-tv1_hanhlang1">
+        <li class="text">TV1_Hanhlang1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-tv1_hanhlang2">
+        <li class="text">TV1_HanhLang2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-tv1_hanhlang3">
+        <li class="text">TV1_HanhLang3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-tv1_hanhlang4">
+        <li class="text">TV1_HanhLang4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-tv1_hanhlang5">
+        <li class="text">TV1_HanhLang5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-tv1_linhtinh">
+        <li class="text">TV1_linhtinh</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-tv1_stair">
+        <li class="text">TV1_Stair</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-tv0_stairl">
+        <li class="text">TV0_StairL</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-tv1_stairl2">
+        <li class="text">TV1_StairL2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-tv1_stairr2">
+        <li class="text">TV1_StairR2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-tv2_stair1">
+        <li class="text">TV2_Stair1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-tv2_stair2">
+        <li class="text">TV2_Stair2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-tv2_stair3">
+        <li class="text">TV2_Stair3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-vanphongdoandoi">
+        <li class="text">VanPhongDoanDoi</li>
+      </a>
+
+            <a href="javascript:void(0)" class="scene" data-id="0-c0_csvc">
+        <li class="text">C0_Csvc</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-c0_kthc">
+        <li class="text">C0_KTHC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-c0_phonggiaovu">
+        <li class="text">C0_PhongGiaoVu</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-c0_pht">
+        <li class="text">C0_PHT</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-c0_stair11">
+        <li class="text">C0_stair1(1)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-c0_stair1">
+        <li class="text">C0_Stair1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-c0_thuquy">
+        <li class="text">C0_Thuquy</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-c1_hanhlang2">
+        <li class="text">C1_Hanhlang2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-c1_hanhlangl">
+        <li class="text">C1_HanhLangL</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-c1_hanhlangl2">
+        <li class="text">C1_HanhLangL2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-c1_hanhlangr">
+        <li class="text">C1_HanhLangR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-c1_hanhlangr2">
+        <li class="text">C1_HanhLangR2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-c1_linhtinh1">
+        <li class="text">C1_linhtinh1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-c1_linhtinh2">
+        <li class="text">C1_linhtinh2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-c1_linhtinh3">
+        <li class="text">C1_linhtinh3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-c1_stair">
+        <li class="text">C1_Stair</li>
+      </a>
+            <a href="javascript:void(0)" class="scene" data-id="0-d0_ht">
+        <li class="text">D0_HT</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-d0_pvt2">
+        <li class="text">D0_PVT2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-ptnsinh">
+        <li class="text">PTNSinh</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-quanlyhocsinh">
+        <li class="text">QuanLyHocSInh</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-bantrud4">
+        <li class="text">BanTruD4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-d0_pvt3">
+        <li class="text">D0_PVT3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-ptnhoa">
+        <li class="text">PTNHoa</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-d0_lab">
+        <li class="text">D0_LAB</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-d0_pvt1">
+        <li class="text">D0_PVT1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-d1_hanhlang1">
+        <li class="text">D1_HanhLang1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-d2_stair2">
+        <li class="text">D2_Stair2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-d0_phongcongdoan">
+        <li class="text">D0_PhongCongDoan</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-d1_hanhlang3">
+        <li class="text">D1_HanhLang3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-d1_linhtinh1">
+        <li class="text">D1_linhtinh1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-d1_stair2">
+        <li class="text">D1_Stair2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-d2_linhtinh2">
+        <li class="text">D2_linhtinh2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-d1_bantru1">
+        <li class="text">D1_BanTru1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-d1_stair1">
+        <li class="text">D1_Stair1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-d2_hanglang1">
+        <li class="text">D2_HangLang1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-d2_hanhlang2">
+        <li class="text">D2_HanhLang2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-d2_hanhlang3">
+        <li class="text">D2_HanhLang3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-d2_linhtinh1">
+        <li class="text">D2_linhtinh1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-d0_stair1">
+        <li class="text">D0_Stair1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-d0_thinghiemly">
+        <li class="text">D0_ThiNghiemLy</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-d1_hanhlang2">
+        <li class="text">D1_HanhLang2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-d1_linhtinh2">
+        <li class="text">D1_linhtinh2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-d2_hanhlang1">
+        <li class="text">D2_HanhLang1</li>
+      </a>
+
+
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
